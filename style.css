@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Uchen', serif;
-    transition: 3s ease;
+    transition: 0.5s ease;
 }
 
 .all-content {
@@ -141,6 +141,25 @@
 } 
 
 
+/*home section end */
+
+/* top cards */
+
+#box {
+    margin-top: 50px;
+
+}
+
+#box .card {
+    box-shadow: 0px 0px 5px black;
+    margin-top: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#box .card:hover {
+    transform: translateY(-10px);
+}
 
 
 
@@ -180,4 +199,8 @@
         font-size: 30px;
     }
 }
+
+
+
+
 
