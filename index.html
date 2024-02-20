@@ -27,12 +27,18 @@
 
   <!--icons link-->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--animations link-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body class="all-content">
   <header>
     <!--navbar-->
-    <nav class="navbar navbar-expand-md" id="navbar">
+    <nav class="navbar navbar-expand-md" id="navbar" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
       <!-- Brand -->
       <a class="navbar-brand" href="#" id="logo"><img src="./assets/logo.png" alt="" width="50px" />Cake Bakery</a>
 
@@ -94,7 +100,10 @@
         </p>
         <a href="#" class="btn">Order Now</a>
       </div>
-      <div class="img">
+      <div class="img" data-aos="fade-left"
+      data-aos-anchor="#example-anchor"
+      data-aos-offset="500"
+      data-aos-duration="2000">
         <img src="./assets/background.png" alt="" />
       </div>
     </section>
@@ -103,7 +112,8 @@
 
     <!--top cards-->
 
-    <div class="container" id="box">
+    <div class="container" id="box" data-aos="fade-up" data-aos-duration="1500">
+    </data-aos=>>
       <div class="row">
         <div class="col-md-4 py-3 py-md-0">
           <div class="card">
@@ -129,7 +139,7 @@
 
     <!--banner-->
 
-    <div class="banner">
+    <div class="banner" data-aos="fade-up" data-aos-duration="1500">
       <div class="content">
         <h3>Deliciuos Cakes</h3>
         <h2>UP TO 50% OFF</h2>
@@ -145,7 +155,7 @@
 
     <!--product cards-->
 
-    <section id="product-cards">
+    <section id="product-cards" data-aos="fade-up" data-aos-duration="1500">
       <div class="container">
         <h1>CAKES</h1>
         <div class="row" style="margin-top: 50px">
@@ -258,7 +268,7 @@
         </div>
 
 
-        <div class="row" style="margin-top: 50px">
+        <div class="row" style="margin-top: 50px" data-aos="fade-up" data-aos-duration="1500" >
           <div class="col-lg-3 col-md-6 py-3 py-md-0">
             <div class="card">
               <div class="overlay">
@@ -369,7 +379,7 @@
       </div>
     </section>
 
-    <section id="product-cards">
+    <section id="product-cards" data-aos="fade-up" data-aos-duration="1500">
       <div class="container">
         <h1>BIRTHDAY CAKE</h1>
         <div class="row" style="margin-top: 50px;">
@@ -486,7 +496,7 @@
 
     <!--gallery-->
 
-    <section id="gallery">
+    <section id="gallery" data-aos="fade-up" data-aos-duration="1500">
       <div class="container">
         <h1>OUR GALLERY</h1>
         <div class="row" style="margin-top: 30px;">
@@ -518,7 +528,7 @@
           </div>
         </div>
 
-        <div class="row" style="margin-top: 30px;">
+        <div class="row" style="margin-top: 30px;" data-aos="fade-up" data-aos-duration="1500">
           <div class="col-md-4 py-3 py-md-0">
             <div class="card">
               <div class="overlay">
@@ -553,7 +563,7 @@
 
     <!--about-->
 
-    <div class="container" id="about">
+    <div class="container" id="about" data-aos="fade-up" data-aos-duration="1500">
       <h1>ABOUT US</h1>
       <div class="row">
         <div class="col-md-6 py-3 py-md-0">
@@ -585,7 +595,7 @@
 
     <!--contact-->
 
-    <div class="container my-3" id="contact">
+    <div class="container my-3" id="contact" data-aos="fade-up" data-aos-duration="1500">
       <h1>CONTACT US</h1>
       <div class="row">
         <div class="col-md-4 py-1 py-md-0">
@@ -617,7 +627,7 @@
 
     <!--footer-->
 
-    <footer id="footer">
+    <footer id="footer" data-aos="fade-up" data-aos-duration="1500">
       <h1 class="text-center">Cake Bakery</h1>
       <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, odit.</p>
       <div class="icons text-center">
@@ -654,6 +664,14 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"
   ></script> -->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+
 </body>
 
 </html>
